@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.footerBar{
+  position:absolute;
+  /* bottom:0,auto; */
+  margin-top: 115px;
+}

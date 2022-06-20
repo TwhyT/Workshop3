@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+.nav-ban{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Cate_button {
+  font-size:xx-large;
+  margin: 0;
+  color: #ffffff;
+  font-family: "MockFlowFont";   
+}
+
+.Cate_button:hover {
+  color: #000000;
+}
+
+.Cate_container {
+  border-radius: 50px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.Cate_image {
+  border-radius: 25%;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Cate_overlay {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background:url(https://media.giphy.com/media/3oz8xWbKhsSQdDCc92/giphy.gif);
+}
+
+.Cate_container:hover .Cate_overlay {
+  opacity: 1;
+}
+
+.Cate_container:hover .Cate_image {
+  border-radius: 50%;
+  opacity: 0.1;
+}
+
+.Cate_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Cate_name{
+  font-family: 'STIX Two Math', serif;
+  font-size: 30px;
+  color:rgb(0, 0, 0);
+}
+
+.bgBlack{
+  height: auto;
+  width: fit-content;
+  background: #000000;
+}
+
+.INDEX{
+  width: 700px;
+  /* background-color: rgb(0, 0, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-weight: bolder;
+  height: 630px;
+  /* background-image:url("/public/src/373823_d8afe13f9f.jpeg"); */
+}

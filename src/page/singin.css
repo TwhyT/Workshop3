@@ -1,0 +1,32 @@
+.formzone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeadText{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.bredcum{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: x-large;
+}
+
+.bred_link{
+  color: black;
+  transition: 2s;
+}
+
+.bred_link:hover{
+  color: rgb(255, 0, 0);
+  transition: 2s;
+}
+
+.bred_active{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-decoration: none;
+}

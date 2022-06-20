@@ -1,0 +1,235 @@
+.banner-position{
+    margin: 0;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    margin: 0;
+    /* background-color: rgb(255, 255, 255); */
+    display:flex;
+    justify-content: start;
+    align-items: center;
+
+    font-weight: bold;
+    transition: 2s;
+
+    background-color: black;
+}
+
+.banner-detail{
+    margin: 0 auto;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-cate{
+    font-size: 24px;
+    color: white;
+}
+
+.hidden-bar{
+    visibility: hidden;
+    height: auto;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    transition: 3s;
+}
+
+.show-bar{
+    
+    visibility: visible;
+    height: auto;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+
+    /* position: absolute;
+    top: auto;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; */
+
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    transition: 3s;
+}
+
+
+/* menu */
+.menu_position{
+    margin: 0 auto;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.menu1, .menu2, .menu3 {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px 0px;
+    transition: 0.4s;
+  }
+  
+  .change.menu1 {
+    -webkit-transform: rotate(-45deg) translate(-10px, -8px);
+    transform: rotate(-45deg) translate(-8px, 5px);
+  }
+  
+  .change.menu2 {opacity: 0;}
+  
+  .change.menu3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -2px);
+    transform: rotate(45deg) translate(-6px, -2px);
+  }
+
+.nav_follow{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_text{
+    margin: 0;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.nav_text:hover{
+    text-decoration: none;
+    /* color: rgb(255, 177, 88); */
+    font-size: xx-large;
+    transition: 1s;
+}
+
+.logo_text{
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo_text:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.btn_login{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    transition: 1s;
+}
+
+.btn_login:hover{
+    text-decoration: none;
+    transition: 2s;
+    color: rgb(66, 123, 255);
+    font-size: xx-large;
+}
+
+.btn_logout{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    transition: 1s;
+}
+
+.btn_logout:hover{
+    text-decoration: none;
+    transition: 2s;
+    color: rgb(240, 99, 99);
+    font-size: xx-large;
+}
+
+.btn_regis{
+    color: rgb(0, 0, 0);
+    font-size: 0.6em;
+    transition: 1s;
+}
+
+.btn_regis:hover{
+    transition: 2s;
+    color: rgb(21, 136, 1);
+    font-size: 0.7em;
+}
+
+.btn_cart{
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.btn_cart:hover{
+    text-decoration: none;
+    color: rgb(255, 177, 88);
+    font-size: xx-large;
+    transition: 1s;
+}
+
+.LineBar {
+    width: 75%;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+.Count{
+    width: auto;
+    height: auto;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.testTran{
+    transition: all 5s linear;
+}
+
+.nav-dropdown{
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 5;
+}
+
+.nav_textNew{
+    margin: 0;
+    text-decoration: none;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
